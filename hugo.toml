@@ -1,0 +1,45 @@
+baseURL = 'https://plotnikovm.github.io/'
+languageCode = 'en-us'
+title = 'Maxim Plotnikov'
+theme = 'dead-simple'
+enableGitInfo = true
+
+[[menu.main]]
+name = "Home"
+url = "/"
+weight = 1
+
+[[menu.main]]
+name = "Categories"
+url = "/categories/"
+weight = 2
+
+[[menu.main]]
+name = "Tags"
+url = "/tags/"
+weight = 3
+
+[[menu.main]]
+name = "Contact"
+url = "/post/contact/"
+weight = 4
+
+[security.funcs]
+getenv = [ "^HUGO_", "^CI$", "^LAST_COMMIT_DATE$" ]
+
+[params]
+description = "Maxim Plotnikov"
+roseIcon = false
+
+[markup.highlight]
+codeFences = true
+style = "bw"
+lineNumbersInTable = false
+noClasses = false
+
+[markup.goldmark.renderer]
+unsafe = true
+
+[outputs]
+home = [ "html", "rss", "json" ]
+page = [ "html" ]
