@@ -9,19 +9,19 @@ name = "Home"
 url = "/"
 weight = 1
 
-[[menu.main]]
-name = "Categories"
-url = "/categories/"
-weight = 2
+# [[menu.main]]
+# name = "Categories"
+# url = "/categories/"
+# weight = 2
+
+# [[menu.main]]
+# name = "Tags"
+# url = "/tags/"
+# weight = 3
 
 [[menu.main]]
-name = "Tags"
-url = "/tags/"
-weight = 3
-
-[[menu.main]]
-name = "Contact"
-url = "/post/contact/"
+name = "About"
+url = "/post/about/"
 weight = 4
 
 [security.funcs]

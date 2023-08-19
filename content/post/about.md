@@ -1,6 +1,6 @@
 ---
-title: "Contact"
-subtitle: "Ways you can contact me"
+title: "About"
+subtitle: "About this blog"
 date: 2023-08-17T15:28:39+03:00 # post date
 toc: false # table of contents (only h2 and h3 added to toc)
 bold: true # display post title in bold in posts list
@@ -10,11 +10,20 @@ categories:
   - misc
 # tags
 tags:
-  - contact
+  - about
 next: false # show link to next post in footer
 nomenu: false # hide site menu
 notitle: false # hide title
 ---
+
+<center><h1><a href="/index.xml">RSS feed</a></h1></center>
+
+## Site navigation
+
+- [Tags](/tags/)
+- [Categories](/categories/)
+
+## Contact
 
 {{< box info >}}
 **Contact me**
